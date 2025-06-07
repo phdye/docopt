@@ -1,4 +1,3 @@
-from __future__ import with_statement
 from docopt import (docopt, DocoptExit, DocoptLanguageError,
                     Option, Argument, Command, OptionsShortcut,
                     Required, Optional, Either, OneOrMore,
