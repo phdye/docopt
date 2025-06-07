@@ -37,6 +37,13 @@ from __future__ import with_statement
 4. Add small compatibility modules for any missing standard‑library
    functionality.
 
+### Results
+
+* Reviewed `docopt.py` and the test suite; no features newer than Python
+  3.2 were found.
+* Removed the obsolete `with_statement` import from `test_docopt.py`.
+* All tests continue to pass under the default Python 3.12 interpreter.
+
 ## Phase 3 – Packaging Adjustments
 
 1. Update `setup.py` to state the supported Python version using
