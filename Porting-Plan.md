@@ -17,6 +17,13 @@ skip_missing_interpreters = True
 ```
 3. Record any failures or errors for follow‑up.
 
+### Results
+
+Attempts to create a Python **3.2.5** environment were unsuccessful in the
+current Codex workspace. The `tox` tool could not be installed and no
+`python3.2` interpreter was available. As a sanity check the tests were run
+using the default Python **3.12** interpreter and all tests passed.
+
 ## Phase 2 – Source Compatibility Review
 
 1. Audit `docopt.py` and tests for features introduced after Python 3.2,
